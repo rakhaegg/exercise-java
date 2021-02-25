@@ -1,12 +1,19 @@
 
 import java.io.BufferedWriter;
+import mypack.MyPackageClass;
 
-
-public class learnday1{
+public class learnday1 extends resourcelearnday1{
 
     public static void main(String[] args) {
         
         System.out.println(modifierbooleanValue());
+        modify();
+
+    }
+
+     
+    public void modify(){
+        System.out.println("test ");
     }
 
     public static Boolean modifierParseBoolean() {
@@ -22,6 +29,6 @@ public class learnday1{
         
         return answer.booleanValue();
     }
-    public s
+
 
 }
